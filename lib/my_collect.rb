@@ -7,9 +7,9 @@ def my_collect(array)
   monkey =[]
   yield(array[i])
   i = i + 1
-  monkey << ""
+  monkey << "#{array}"
 end
-array
+monkey
 end
 
 
