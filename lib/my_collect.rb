@@ -5,8 +5,8 @@ def my_collect(array)
  monkey = []
   while i < array.length
   yield(array[i])
-  i = i + 1
   monkey << "#{array[i]}"
+  i = i + 1
 end
 monkey
 end
