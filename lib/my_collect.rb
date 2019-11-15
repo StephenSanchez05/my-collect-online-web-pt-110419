@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def my_collect(array)
   i = 0
@@ -6,9 +6,8 @@ def my_collect(array)
   while i < array.length
   yield(array[i])
   i = i + 1
-  binding.pry
-  array
 end
+array
 end
 
 
